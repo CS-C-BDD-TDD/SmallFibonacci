@@ -72,7 +72,7 @@ class Fibonacci {
 
 		int b = 1;
 		series[0] = 0;
-		series[1] = 1; //made 3 to fail unit test should be 1
+		series[1] = 1; //made series[1] = 3 to fail unit test should be series[1] = 1
 
 		for (int i = 2; i < number; i++) {
 			int c;
